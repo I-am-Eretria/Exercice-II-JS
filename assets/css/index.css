@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #2E3239;
+}
+
+#carresCouleurDiff{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+
+.baseCarresCouleur{
+    border-radius: 10px;
+    min-height: 200px;
+    min-width: 200px;
+    max-width: fit-content;
+}
+
+#carre1{ background-color: #5957d0; }
+
+#carre2{ background-color: #eac9a4;}
+
+#carre3{ background-color: #5F7ADB; }
+
+#carre4{ background-color: #A2B2EE; }
+
+
+#carreChangeCouleur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carre{
+    color: white;
+    border-radius: 10px;
+
+    min-height: 200px;
+    min-width: 200px;
+    max-width: fit-content;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#couleurCarre{
+    background-color: #17181a;
+}
