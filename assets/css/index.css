@@ -23,6 +23,7 @@ body{
     min-height: 200px;
     min-width: 200px;
     max-width: fit-content;
+    cursor: pointer;
 }
 
 #carre1{ background-color: #5957d0; }
