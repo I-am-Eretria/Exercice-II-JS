@@ -4,12 +4,8 @@ En cliquant sur n'importe quel carré du haut, le carré du bas prend sa couleur
 
 const squareBottom = document.getElementById("couleurCarre");   // définit squareBottom en la balise avec pour id couleurCarre
 
-const squares = [   // définit un tableau squares avec pour éléments les balises ayant pour id respectif :
-    document.getElementById("carre1"),  // carre1
-    document.getElementById("carre2"),  // carre2
-    document.getElementById("carre3"),  // carre3
-    document.getElementById("carre4")   // carre4
-];
+const squares = document.querySelectorAll(".baseCarresCouleur"); // définit un tableau squares avec pour éléments les balises ayant pour classe respective baseCarresCouleur
+
 
 // Ajout d'un écouteur d'événement pour chaque carré
 squares.forEach(square => {
